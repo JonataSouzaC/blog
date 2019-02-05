@@ -7,3 +7,5 @@ class BlogPost(db.Model):
     content = db.TextProperty(required=True)
     created = db.DateTimeProperty(auto_now_add=True)
     last_updated = db.DateTimeProperty(auto_now=True)
+    
+   
